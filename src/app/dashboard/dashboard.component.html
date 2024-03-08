@@ -1,0 +1,21 @@
+<div class="layout-wrapper layout-content-navbar">
+    <div class="layout-container">
+
+        <app-nav></app-nav>
+        <div class="layout-page">
+            <app-header></app-header>
+            <main>
+                <div class="content-wrapper">
+                    <div class="container-fluid flex-grow-1 container-p-y">
+                        <router-outlet class="main"></router-outlet>
+                    </div>
+                    
+                </div>
+                
+            </main>
+            <app-footer></app-footer>
+            <div class="content-backdrop fade"></div>
+        </div>
+        <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+</div>
